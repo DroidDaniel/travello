@@ -660,7 +660,7 @@ button
 @media screen and (max-width: 992px) {
   .mil-button {
     height: 60px;
-    padding: 0 10px 0 40px;
+    padding: 0 10px 0 10px;
   }
   .mil-button svg {
     margin-left: 25px;
@@ -1013,9 +1013,9 @@ spaces
 .mil-btn-space {
   margin-right: 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .mil-btn-space {
-    margin-right: 50px;
+    margin-right: 5px;
     margin-bottom: 30px;
   }
 }
@@ -4483,10 +4483,19 @@ p.service_text{
     border-radius: 30px;
 }
 
+.reach-out-wrapper h3{
+  text-align: center;
+}
+
 .reach-buttons{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 350px) {
+  .reach-buttons{
+    flex-direction: column;
+  }
 }
 
 /**why choose us section end***/
