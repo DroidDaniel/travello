@@ -4280,7 +4280,7 @@ html.is-animating .mil-menu-frame {
 .section-head h4 {
   position: relative;
   padding:0;
-  color:#f91942;
+  color:#cea55f;
   line-height: 1;
   letter-spacing:0.3px;
   font-size: 34px;
@@ -4293,7 +4293,7 @@ html.is-animating .mil-menu-frame {
   content: '';
   width: 60px;
   height: 3px;
-  background: #f91942;
+  background: #cea55f;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -4330,7 +4330,7 @@ p.service_text{
     content: '';
     width: 60px;
     height: 3px;
-    background: #f91942;
+    background: #cea55f;
     position: absolute;
     left: 0px;
     bottom: -10px;
@@ -4339,7 +4339,7 @@ p.service_text{
 }
 .extra-text span {
     font-weight: 700;
-    color:#f91942;
+    color:#cea55f;
 }
 .item {
     background: #fff;
@@ -4355,7 +4355,7 @@ p.service_text{
     transition: all 0.5s ease 0s;
 }
 .item:hover{
-    background:#f91942;
+    background:#cea55f;
     box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
@@ -4364,6 +4364,7 @@ p.service_text{
 .item:hover .item, .item:hover span.icon{
     background:#fff;
     border-radius:10px;
+    padding: 10px;
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
@@ -4377,7 +4378,7 @@ p.service_text{
 .item .icon {
     font-size: 40px;
     margin-bottom:25px;
-    color: #f91942;   
+    color: #cea55f;   
     width: 90px;
     height: 90px;
     line-height: 96px;
@@ -4385,27 +4386,27 @@ p.service_text{
 }
 .item .feature_box_col_one{
     background:rgba(247, 198, 5, 0.20);
-    color:#f91942
+    color:#cea55f
 }
 .item .feature_box_col_two{
     background:rgba(255, 77, 28, 0.15);
-    color:#f91942
+    color:#cea55f
 }
 .item .feature_box_col_three{
     background:rgba(0, 147, 38, 0.15);
-    color:#f91942
+    color:#cea55f
 }
 .item .feature_box_col_four{
     background:rgba(0, 108, 255, 0.15);
-    color:#f91942
+    color:#cea55f
 }
 .item .feature_box_col_five{
     background:rgba(146, 39, 255, 0.15);
-    color:#f91942
+    color:#cea55f
 }
 .item .feature_box_col_six{
     background:rgba(23, 39, 246, 0.15);
-    color:#f91942
+    color:#cea55f
 }
 .item p{
     font-size:15px;
@@ -4427,7 +4428,7 @@ p.service_text{
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #f91942;
+    background: #cea55f;
     border-radius: 50%;
     color: #fff;
     font-size: 25px;
@@ -4463,7 +4464,7 @@ p.service_text{
     left: 0;
     top: 0;
     height: 100%;
-    background: #f91942;
+    background: #cea55f;
     width: 10%;
     border-radius: 10px;
     -webkit-transition: all 1s;
@@ -4481,3 +4482,10 @@ p.service_text{
     padding: 3px 7px;
     border-radius: 30px;
 }
+
+.reach-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+/**why choose us section end***/
